@@ -1,7 +1,8 @@
 function Login(){
+    const userName = "Mustafa";
     return (
         <div>
-        <h1>Login</h1>
+        <h1>{userName}</h1>
         </div>
     )
 }
