@@ -1,12 +1,6 @@
-import Login from "./UserComponents";
-
+import { createElement } from "react";
 function App() {
-  return (
-    <div>
-      <Login />
-      <h1>Main Content</h1>
-    </div>
-  )
+  return createElement("h1",{id:"new"}, "hello")
 }
 
 export default App;
