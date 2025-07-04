@@ -1,8 +1,9 @@
 function Login(){
-    const userName = "Mustafa";
+    var x= 20;
+    var y= 10;
     return (
         <div>
-        <h1>{userName}</h1>
+        <h1>{x + y}</h1>
         </div>
     )
 }
