@@ -1,7 +1,7 @@
 function App() {
-  const demo = function demo(){
-        alert("Function called")
-      }
+  const demo = ()=>{
+    alert("Function Called")
+  }
   return (
     <div>
       <button onClick={demo}>Click</button>
