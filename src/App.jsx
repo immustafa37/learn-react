@@ -5,11 +5,15 @@ function App() {
   function demo(){
     return "Function"
   }
+  function sum(a, b){
+    return a+b
+  }
   return (
     <div>
       <h1>{name}</h1>
       <h1>{x + y}</h1>
       <h1>{demo()}</h1>
+      <h1>{sum(10, 40)}</h1>
     </div>
   );
 }
