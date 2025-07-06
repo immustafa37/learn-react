@@ -21,6 +21,7 @@ function App() {
     name: "mustafa",
     email: "mustafa@gmail.com"
   }
+  const userArray= ["name1", "name2", "name3"]
   return (
     <div>
       <h1>{name}</h1>
@@ -29,6 +30,7 @@ function App() {
       <h1>{sum(10, 40)}</h1>
       <h1>{opration(10, 20, "+")}</h1>
       <h1>{userObj.email}</h1>
+      <h1>{userArray[1]}</h1>
     </div>
   );
 }
