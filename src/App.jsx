@@ -1,9 +1,10 @@
 function App() {
+  const demo = function demo(){
+        alert("Function called")
+      }
   return (
     <div>
-      <button onClick={function demo(){
-        alert("Function called")
-      }}>Click</button>
+      <button onClick={demo}>Click</button>
     </div>
   );
 }
