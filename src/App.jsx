@@ -1,9 +1,10 @@
+import { useState } from "react";
+
 function App() {
+  const [fruit, setFruit] = useState("Apple");
   return (
     <div>
-      <button onClick={()=>{
-        alert("Function Called")
-      }}>Click</button>
+      <h1>{fruit}</h1>
     </div>
   );
 }
