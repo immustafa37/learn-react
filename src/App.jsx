@@ -1,10 +1,14 @@
 import { useState } from "react";
 
 function App() {
-  const [fruit, setFruit] = useState("Apple");
+  const [name, setName] = useState("Mustafa");
+  const handleName = ()=> {
+    setName("Mustafa Ahsan")
+  }
   return (
     <div>
-      <h1>{fruit}</h1>
+      <h1>{name}</h1>
+      <button onClick={handleName}>Change Name</button>
     </div>
   );
 }
