@@ -1,11 +1,14 @@
 import { useState } from "react";
 function App() {
-  const [display, setDisplay] = useState(false);
+  const [display, setDisplay] = useState(true);
   return (
     <div>
-      <h1>Toggle in React</h1>
+      <h1>Hide and Show</h1>
+      <button onClick={()=> {
+        setDisplay(!display)
+      }}>Hide & Show</button>
       {
-        display? <h1>Mustafa</h1>: <h1>no user</h1>
+        display? <h1>Mustafa</h1>: null
       }
 
     </div>
